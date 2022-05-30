@@ -5,7 +5,7 @@ import React from 'react'
 
     const CartContext =React.createContext({
         items:[],
-        totaAmount:0,               /*these are default values and not so compulsory to mention */
+        totalAmount:0,               /*these are default values and not so compulsory to mention */
         addItem: (item)=>{},        /*It is used when we impliment useconstext without adding context provider in parent component*/
         removeItem: (id)=>{}
     })
