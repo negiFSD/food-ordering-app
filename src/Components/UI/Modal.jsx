@@ -14,6 +14,8 @@ return <div className={Classes.modal}>
     <div className={Classes.content}>{props.children}</div>
 </div>
 }
+
+// addess for modal 
 const portalElement = document.getElementById('overlays')
 
 //Main function starts from here
